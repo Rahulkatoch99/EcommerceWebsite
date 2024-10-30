@@ -1,0 +1,94 @@
+.carousel-indicators button{
+  box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    display: none;
+}
+.carousel-control-prev{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+  margin-left: -2.5rem;
+}
+
+.carousel-control-next span:hover{
+  background-color: silver;
+}
+
+.carousel-control-prev span:hover{
+  background-color: silver;
+}
+.carousel-control-next{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+  margin-right: -2.5rem;
+}
+
+.innerImage{
+  position: relative;
+}
+
+
+.second-row{
+  background-color: rgba(201,238,255,0.35);
+  padding: 60px;
+}
+
+.category-row .categories {
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+.categoryimage {
+  margin-right: 10px;
+}
+
+.second-row .Rows img {
+  width: 100%;
+}
+
+.Rows {
+  margin-bottom: 10px;
+}
+
+.text-center.mb-4 {
+  font-size: 16px;
+}

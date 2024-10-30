@@ -1,0 +1,89 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    max-width: 600px; /* Set the maximum width you desire */
+    margin: 0 auto;   /* Center the pagination */
+  }
+  
+
+
+.rating {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #ff0 !important;
+  }
+  
+
+
+.search-card {
+    border: 0px solid #e0e0e0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    transition: box-shadow 0.3s ease;
+}
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* 1:1 Aspect Ratio */
+    overflow: hidden;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+}
+
+.search-info {
+    padding: 10px 0;
+}
+
+.search-name {
+    font-weight: bold;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.search-pricing {
+    margin-bottom: 10px;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.discounted-price {
+    font-weight: bold;
+    color: #e53935;
+}
+
+.discount {
+    color: #e53935;
+    font-size: 0.9em;
+}
+
+
+.image-container:hover .product-image {
+    transform: translate(-50%, -50%) scale(0.95); /* Slightly scale down the image */
+}
+

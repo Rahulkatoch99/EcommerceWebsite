@@ -1,0 +1,14 @@
+.pagination-container {
+    display: flex;
+    justify-content: center;
+    max-width: 600px; /* Set the maximum width you desire */
+    margin: 0 auto;   /* Center the pagination */
+  }
+  
+
+
+   .rating {
+    margin-top: 10px;
+    color: #ff0;
+  }
+  

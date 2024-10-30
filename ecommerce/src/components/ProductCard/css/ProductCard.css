@@ -1,0 +1,96 @@
+.product-card {
+    border: none;
+    padding: 16px;
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+  }
+  
+  .product-card img {
+    max-width: 100%;
+  }
+  
+  .category-card img {
+    max-width: 80%;
+    margin-top: 20px;
+  }
+
+  .category-info {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .product-info {
+    margin-top: 10px;
+    font-size: 10px;
+    font-weight: bold;
+  }
+  
+  .product-pricing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    margin-right: 8px;
+    font-size: x-small;
+  }
+  
+  .discounted-price {
+    color: #0000ff;
+  }
+  
+  .discount {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 12px;
+    left: 8px;
+    border-radius:3px;
+    line-height: normal;
+    min-height: auto;
+    min-width: auto;
+    margin: 0;
+    font-size: 8px;
+
+  }
+  
+  .rating {
+    margin-top: 10px;
+    color: #ff0;
+  }
+  
+
+  .link a {
+    color: black; 
+}
+
+
+.Product-dropdown-row{
+  background-color: white;
+  color: black;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+
+}
+
+
+
+
+.carousel-control-prev.active,
+.carousel-control-next.active {
+    background-color: yellow;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: white;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
